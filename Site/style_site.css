@@ -1,0 +1,171 @@
+
+
+/* Mise en page */
+#blocPage
+{
+    width: 50%;
+    margin: 0 100;
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background: url("img/dond3.jpg");
+    color: black;
+
+}
+
+#blocPage form
+{
+    color: white;
+    margin: 15%;
+}
+
+#blocPage legend
+{
+color: white;
+}
+
+tr 
+{
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+    background-color: rgba(#,#,#,1);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    height: 50px;
+    border: 1px solid;
+}
+td{
+    border: 1px solid white;
+}
+table {
+    width: 100%;
+    margin : 50 200;
+    border: 1px solid white;
+}
+
+
+/* HEADER */
+header
+{
+    font-family: DejaVu Sans Mono, monospace;
+    display: flex;
+    margin: 2%;
+}
+
+/* Navigation */
+
+
+#userMenu ul
+{
+    list-style-type: none;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 40%;
+    width: 400px;
+    margin-left: -200px;
+
+}
+
+nav li, #userMenu li
+{
+    margin-right: 30px;;
+    
+}
+
+nav a, #userMenu a
+{
+    font-size: large;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: white;
+    border-bottom: 3px solid silver;
+}
+nav a:hover, #userMenu a:hover
+{
+    color: white;
+    border-bottom: 3px solid silver;
+}
+
+.bouttonoui{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 40px;
+    font-family:Andale Mono, monospace;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+.bouttonnon{
+    position: absolute;
+    top:60%;
+    left: 57%;
+    font-size: 40px;
+    font-family:Andale Mono, monospace;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+.genie{
+   /* width: 30%;
+    height: 40%;*/
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.drapeau{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 45%;
+}
+.bulle{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width : 35%;
+    height: 35%;
+}
+#question
+{
+    position: absolute;
+    font-size: 150% ;    
+    color: black;
+    font-family: Andale Mono, monospace;
+
+    margin-top: 5%;
+    margin-left: 43%;
+    margin-bottom: 90%;
+    margin-right: 37%;
+   
+}
+.load{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+}
