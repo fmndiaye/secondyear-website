@@ -1,0 +1,49 @@
+﻿Rendez-vous 02/02/2018
+- Tests avec les technologies qui seront utilisees
+- A faire: Algorithme du genie et programmation du site web + installation SVN pour tous
+
+
+
+Rendez-vous 02/02/2018
+- Base de donnes
+- Algorithme basique
+- Commencé a faire le site, inscriptions
+- A faire: Faire l'interface PHP+Java pour que le site parle avec site
+
+
+Rendez-vous 16/02/2018
+- Commencé l'implementation de la recherche des pays mais le code va être porte
+  en php
+- A faire: changer les identifiants du BDD, modeliser la base de données
+  (diviser la table pays en plusieurs tables et faire la liason entre elles)
+  Base de donnes n'est pas bien modelisé
+
+Rendez-vous 23/02/2018
+- Ne creer pas de tables auxilieres pour chaque utilisateur que se connecte a la
+  base de donnes: ça doit etre fait avec des selects
+- A faire: commencer a faire l'apresentation du site
+
+Rendez-vous 03/03/2018
+- Genie que pose des questions qui maximisent l'ecart entre oui et non
+- Ajouter des nouvelles questions pour qu'on puisse distinguer tous les pays
+- A faire: Jeux marcher a 100%, historique des jeux, la parte graphique 
+
+Rendez-vous 09/03/2018
+- Corriger des bugs et ameliorer la usabilité du génie
+- Essayer de diviser le code par rapport au modele MVC: separer l'affichage de
+  la base de donnees
+- Chercher parmi toutes les colonnes, la question qui maximise l'écart
+
+Rendez-vous 16/03/2018
+- Ameliorer la separation du code, surtout pour le code que fait la conection a
+  la BDD
+- A la fin, si l'utilisateur a triché, chercher la question qu'il a mal repondu
+
+
+
+Rendez-vous 23/03/2018
+- Ameliorer l'interface du site web (tester avec des autres navigateurs et ordi)
+- Essayer d'utiliser AJAX avec la librerie jQuery
+- Essayer de separer encore plus le code pour separer la logique de la base de
+  donnes
+- Penser a des extensions pour le projet

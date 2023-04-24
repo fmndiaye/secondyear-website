@@ -1,0 +1,21 @@
+Configuration Wamp pour le formulaire de contact
+
+
+Pour commencer, téléchargez Fake Sendmail et déposez les fichier dans un dossier que vous nommerez sendmail .
+Il faut ensuite modifier certains fichier de sendmail et de Wamp . 
+
+Dans sendmail il faut modifier le dossier sendmail.ini en écrivant comme ci-dessous :
+
+(ces paramètres sont pour une boîte gmail)
+smtp_server= smtp.gmail.com 
+smtp_port= 587
+default_domain= gmail.com
+auth_username= projetgenie3@gmail.com
+auth_password= Projet_genie3
+force_sender= projetgenie3@gmail.com
+
+ Enfin dans les fichier de Wamp il faut également modifier une ligne du fichier php.ini  :
+
+sendmail_path= " ****l’emplacement\de\sendmail.exe*****" 
+
+Après le redémarrage de Wamp le formulaire de contact enverra donc les Email a l’adresse suivante: projetgenie3@gmail.com
